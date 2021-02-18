@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>A bootstrap Website</title>
+	<link rel="stylesheet" href="css/webStyle.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- The bootstrap code for navigation bar -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+	<div class="container">
+		<a class="navbar navbar-brand" href="home#">Hello Travel Agency</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+		data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+		aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#services">Services</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about">About</a>
+				</li>
+			</ul>
+			
+		</div>
+	</div>
+</nav>
+<header class="jumbotron jumbotron-fluid jumbotron-image">
+	<div class="container-fluid text-center">
+		<h1 class="display-3">The best solution for traveling worldwide</h1>
+		<p class="lead pb-4">We help you travel the globe with low cost budget</p>
+		<p>
+			<a href="#" class="btn btn-primary btn-md" role="button">See more..</a>
+		</p>
+	</div>
+</header>
+
+<!-- here the hero section of websites landing page -->
+<section id="services" class="container">
+	<h2 class="display-4 text-center mt-5 mb-3">The Sites main Services</h2>
+	
+	<div class="row text-center">
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<img class="card-img-top" src="images/design.jpg" alt="Design" />
+				<div class="card-body">
+					<h4 class="card-title">We Design</h4>
+					<p class="card-text">We design and organise the best trips around the globe and offer to our
+					customers great experiences.</p>
+				</div>
+				<div class="card-footer py-4">
+					<a href="#" class="btn btn-secondary">See our catalogue and brochures</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<img class="card-img-top" src="images/develop_trip.png" alt="trip development" />
+				<div class="card-body">
+					<h4 class="card-title">We Develop</h4>
+					<p class="card-text">We develop low budget road trips to match our
+					customer needs.</p>
+				</div>
+				<div class="card-footer py-4">
+					<a href="#" class="btn btn-secondary">See our catalogue and brochures</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<img class="card-img-top" src="images/travel_forest.jpg" alt="Travel" />
+				<div class="card-body">
+					<h4 class="card-title">We Travel</h4>
+					<p class="card-text">We travel happy and take picture of siteseens and spots.</p>
+				</div>
+				<div class="card-footer py-4">
+					<a href="#" class="btn btn-secondary">See our catalogue and brochures</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="container-fluid text-center py-4 mt-4" id="contact">
+	<h2 class="display-4 pb-4 my-4">Get in touch with our Team Today!</h2>
+	<p class="lead pb-3">Send us your message or tell us about where you would like to go.</p>
+	<p class="lead pb-3">We will reply to you ASAP!</p>
+	<a href="#" class="btn btn-primary btn-lg mb-4" role="button">Contact us now</a>
+</section>
+
+<!-- the footer section -->
+<footer class="py-3 bg-light">
+	<div class="container">
+		<p class="text-center">Copyright &copy; Travel Agency 2021</p>
+	</div>
+</footer>
+</body>
+</html>
